@@ -1,0 +1,60 @@
+.App {
+  padding:10px;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.App_loading {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:#4a535a;
+  padding-top: 50px;
+}
+
+.App .menuWrap {
+  display: block;
+  float: left;
+  height: 70px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+.App .menuWrap .menu ul {
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.App .menuWrap .menu ul li {
+  float: left;
+}
+
+.App .menuWrap .menu ul li .menulink {
+  text-decoration: none;
+
+  display: block;
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 45px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:#4a535a;
+  /*font-family: oswald;*/
+}
+.App .menuWrap .menu ul li .menulink:hover{
+  color:#4884c5;
+}
+
